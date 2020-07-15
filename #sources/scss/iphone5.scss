@@ -1,0 +1,62 @@
+/* Iphone 5 */
+@media (max-width: 320px) {
+
+//////SERVICE BLOCK//////
+	.services{
+
+		&__img{
+			margin: 10px 5px;
+		}
+
+		&__head{
+			font-size: 10px;
+		}
+
+		&__text{
+			font-size: 7px;
+		}
+
+	}
+
+//////PROJECT SLIDER//////
+	.projects__slider{
+
+		&-text-container{
+			left: 39px;
+		}
+
+		&-heart{
+			right: 56px;
+		}
+
+		&-like{
+			right: 40px;
+		}
+	}
+
+//////BLOG/////
+	.information{
+
+		&__item_wide{
+			max-width: 300px;
+			margin:0 5px;
+		}
+
+		&__post-img{
+			width: 90px;
+			height: 90px;
+		}
+
+		&__post-head{
+			font-size: 12px;
+		}
+
+		&__post-text{
+			font-size: 10px;
+		}
+
+		&__menu-item{
+			font-size: 7px;
+		}
+	}
+}

@@ -1,0 +1,274 @@
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+//////HEADER BOTTOM/////
+	.communication{
+		flex-direction: column-reverse;
+		align-items: center;
+
+		&__phone{
+			margin-top: 10px;
+		}
+
+		&__phone_left{
+			display: none;
+		}
+	}
+
+	.header-bottom{
+
+		.search{
+			&-hide-container{
+				right:0px;
+				width: 161.4px;
+				margin-top: 5.4px;
+			}
+
+			&__hide-img{
+				top:22.2px;
+				right:12px;
+			}
+
+			&__input{
+				width: 126.6px;
+				height: 33px;
+				padding: 13.2px 11.4px;
+				font-size: 8.4px;
+				margin-top: 10.2px;
+			}
+
+			&__back{
+				width: 34.8px;
+				height: 43.2px;
+			}
+		}
+	}
+
+//////NATURAL POWER SLIDER//////
+	.slider_container{
+		max-width:100%;
+
+		&__head{
+			font-size: 25px;
+			margin-top: 10px;
+		}
+
+		&__img-logo{
+			width: 40%;
+		}
+
+		&__text{
+			font-size: 7px;
+		}
+
+		&__text-con{
+			margin-top: -30px;
+			margin-left: 0;
+		}
+	}
+
+	.slider .slick-arrow.slick-prev{
+		padding-top:20px;
+		padding-left: 20px;
+		background-position: 50% 0;
+	}
+
+	.slider .slick-arrow.slick-next{
+		padding-top:20px;
+		padding-right: 20px;
+		background-position: 50% 0;
+	}
+
+//////SERVICE BLOCK//////
+	.services{
+
+		&__img{
+			margin: 15px 30px;
+		}
+
+		&__head{
+			font-size: 12px;
+		}
+
+		&__text{
+			font-size: 7px;
+		}
+
+	}
+
+//////DETAIL LINK//////
+	.details{
+		&-conteiner{
+ 			padding-top: 15px;
+		}
+
+		&__text{
+			font-size: 24px;
+		}
+	
+		&__check-body{
+			margin: 12px 29px 12px 24px;
+		}
+
+		&__href-text{
+			font-size: 9px;
+		}
+
+	}
+
+//////FEEDBACK FORM//////
+	.in-touch{
+		&__name{
+			margin:23px 0 26px 0;
+		}
+
+		&__form{
+			width: 320px;
+		}
+
+		&__buttom{
+			margin-top: 10px;
+			width: 100px;
+
+		}
+		&__buttom_with-img{
+			background-position: center right 14px;
+			padding-left: 20px;
+		}
+	}
+
+//////BLOCK QUOTATION//////
+	.quote{
+
+		&-container{
+			padding: 0;
+		}
+
+		&__text{
+			padding-right: 20px;
+			font-size: 9px;
+		}
+
+		&__slider{
+			max-width: 250px;
+		}
+	}
+
+//////BLOG//////
+	.information{
+		
+		&__item_wide{
+			max-width: 320px;
+		}
+
+		&__item{
+			padding-top: 30px;
+		}
+
+		&__post-img{
+			width: 91px;
+			height: 91px;
+			margin-right: 21px;
+		}
+
+		&__post-head{
+			font-size: 11.2px;
+		}
+
+		&__post-date-img{
+			margin-right: 5px;
+		}
+
+		&__post-container{
+			margin-top: 15px;
+		}
+
+		&__post-item{
+			display: flex;
+			flex-wrap: wrap;	
+		}
+
+		&__post-date{
+			margin-left:0;
+		}
+
+		&__post-day{
+			font-size: 33.6px;
+		}
+
+		&__post-month-year{
+			font-size: 7.7px;
+		}
+
+		&__post-text{
+			font-size: 9px;
+		}
+
+		&__head{
+			font-size: 15.4px;
+		}
+		&__post-h_smaller{
+			font-size: 9.8px;
+		}
+
+		&__menu-item, &__menu-item-bottom{
+			font-size: 7px;
+		}
+
+		&__acordeon-more{
+			font-size: 9.8px;
+		}
+
+		&__text-cav{
+			font-size: 62.3px;
+		}
+	}
+
+//////SHORT INFORMATION BLOCK//////
+	.main-information{
+		background:url('../img/background/blue-back2.png') no-repeat;
+		
+		&__item{
+			padding-top: 20px;
+			padding-bottom: 0px;
+			height: 250px;
+			margin:0;
+		}
+
+		&__img-container{
+			height: 150px;
+			margin-top: 20px;
+		}
+
+		&__img-b1{
+			width: 177px;
+			height: 111px;
+			margin-top: 15px;
+		}
+
+		&__keyboard{
+			max-width: 70%;
+			margin:20px 40px 0 0;
+		}
+
+		&__img-b2{
+			width: 217px;
+			height: 137px;
+			margin-left: 89.4px;
+		}
+
+		&__line{
+			margin:5px 0 5px 0;
+		}
+
+		&__text-h{
+			font-size:13.2px;
+			margin-bottom: 7.2px;
+		}
+
+		&__text{
+			font-size: 7.8px;
+		}
+
+	}
+}

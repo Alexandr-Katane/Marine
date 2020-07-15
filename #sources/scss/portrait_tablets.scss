@@ -1,0 +1,75 @@
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+//////NATURAL POWER SLIDER/////
+	.slider_container{
+		&__head{
+			font-size: 60px;
+			margin-bottom: 15px;
+		}
+	}
+
+//////SERVICE BLOCK/////
+	.services__conteiner{
+	 	flex-wrap: wrap;
+	 	justify-content: center;
+	}
+
+/////TEAM/////
+	.team{
+		background: url('../img/background/team-back4.png'); 
+
+		&-container{
+			justify-content: space-around;
+		}
+	
+		&__item{
+			width: 210px;
+			margin-bottom: 20px;
+		}
+	}
+
+//////CLIENTS/////
+	.clients-container{
+		justify-content: center;
+	}
+
+//////BLOCK QUOTATION/////
+	.quote{
+		&-container{
+			justify-content: center;
+		}
+
+		&__text{
+			padding-right: 60px;
+		}
+
+		&__slider{
+			padding-top:22px;
+			max-width: 600px;
+		}
+
+		&__img-back{
+			margin-top: 10px;
+			width: 80%;
+			height: 80%;
+		}
+
+		&__img-top{
+			top: 40px;
+			left: 20px;
+		}
+	}
+
+//////SHORT INFORMATION BLOCK//////
+	.main-information{
+		background: url('../img/background/blue-back2.png');
+	}
+
+//////HEADER TOP//////
+	.footer-top{
+		&-container{
+			justify-content: space-around;
+		}
+	}
+}

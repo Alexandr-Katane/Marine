@@ -1,0 +1,45 @@
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+//////SERVICE BLOCK//////
+	.services{
+		&__conteiner{
+		 	flex-wrap: wrap;
+		 	justify-content: center;
+		}
+	}
+
+//////SHORT INFORMATION BLOCK/////
+	.main-information{
+		background: url('../img/background/blue-back2.png');
+	}	
+
+//////TEAM/////
+	.team{
+		background: url('../img/background/team-back2.png'); 
+
+		&-container{
+			justify-content: center;
+		}
+
+		&__item{
+			margin-right: 10px;
+			margin-bottom: 10px;
+		}
+	}
+
+//////BLOCK QUOTATION//////
+	.quote{
+		&-container{
+			justify-content: space-around;
+		}
+
+		&__text{
+			padding-right: 60px;
+		}
+
+		&__slider{
+			max-width: 800px;
+		}
+	}
+}
